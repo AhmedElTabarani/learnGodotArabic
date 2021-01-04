@@ -30,7 +30,6 @@ https://godotengine.org/download/windows
 
 ## فهرس الدروس
 
-<<<<<<< HEAD
 | الدرس | وصف قصير|
 | :-----: | :------: |
 | [ما قبل البداية](%5B00%5DBeforeStarting/README.md) | مفاهيم وامور مهمة يجب معرفتها |
