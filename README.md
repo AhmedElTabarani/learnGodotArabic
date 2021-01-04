@@ -28,4 +28,10 @@
 
 https://godotengine.org/download/windows
 
+## فهرس الدروس
+
+| الدرس | الوصف|
+| :-----: | :------: |
+| [ما قبل البداية](https://github.com/AhmedElTabarani/learnGodotArabic/blob/main/%5B00%5DBeforeStarting/README.md) | مفاهيم وامور مهمة يجب معرفتها |
+
 </div>
