@@ -6,9 +6,9 @@
 
 اهلا بكم في درس جديد وهو
 ال `control statements` وهي التى تسمح لنا بالتحكم في مسار الكود  
-من انواعها هي `(if, else), (for, while do-while), match`  
+من انواعها هي `(if, elif, else), (for, while), match`  
 من سنشرح كل واحدة على حدة وسنبدأ بعائلة ال `if`  
-## `if else elif Statement`
+## `if else elif Statements`
 انت تعطيها شرط ما فأن تحقق هذا الشرط يبدأ تنفيذ الكود
 
 <div dir = ltr>
