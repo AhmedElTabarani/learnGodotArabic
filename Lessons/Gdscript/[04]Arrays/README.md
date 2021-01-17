@@ -1,10 +1,15 @@
 <div dir = rtl>
 
+<div align = "center">
+
 # السلام عليكم ورحمة الله وبركاته
 ## --{ المصفوفات }--
 ## الدرس الرابع - 04
 
-اهلا بكم في درس جديد وهو ال `Arrays` المصفوفات وهي التى تسمح لنا بتخزين مجموعة من القيم المختلفة في متغير وحيد 
+</div>
+
+اهلا بكم في درس جديد وهو ال `Arrays` المصفوفات وهي نوع من انواع ال `datastructure` اي تخزن البيانات بطريقة مهينة  
+وهي التى تسمح لنا بتخزين مجموعة من القيم المختلفة في متغير وحيد
 
 <div dir = ltr>
 
@@ -19,10 +24,12 @@ var x := []
 <div dir = ltr>
 
 ```swift
-    var x := Array()
+var x := Array()
 ```
 </div>
 
+
+## `لاضافة عناصر`
 ان اردنا اضافة عناصر فيها فسنستعمل دالة تدعى `append`
 
 <div dir = ltr>
@@ -86,7 +93,7 @@ print(arr[2]) # it will print true
 ```
 </div>
 
-هكذا يكون arr[0] هو اول عنصر و arr[1] هو ثاني عنصر و arr[2] هو الثالث وهكذا ..  
+هكذا يكون `arr[0]` هو اول عنصر و` arr[1]` هو ثاني عنصر و `arr[2]` هو الثالث وهكذا ..  
 
 العناصر ايضًا لدييها عنوان ثانوي وهو عنوان عكسي بالسوالب
 
@@ -111,10 +118,11 @@ print(arr[-3]) # it will print "hi"
 ```
 </div>
 
+الجدير بالذكر ان ال `string` بحد ذاته `array،` لكنه مصفوفة خاصة بالحروف اي انه `array of char` لا يقبل سوى بقيم من النوع `char`
 
 ## `functions of arrays`
-كما لاحظت فالمصفوفات لديها بعض الدوال الجاهزة الخاصة فقط بالمصفوفات  
-سنستعرض بعض القليل منها ويمكنك ان تقرأ وان تعرف اكثر عن باقي الدوال في المقالات المرفقة مع الدرس  
+كما لاحظت فالمصفوفات لديها بعض الدوال الجاهزة الخاصة فقط بها  
+سنستعرض القليل منها ويمكنك ان تقرأ وان تعرف اكثر عن باقي الدوال في المقالات المرفقة مع الدرس  
 
 <div dir = ltr>
 
@@ -157,7 +165,7 @@ var last := arr.front()
 ## `مقالات` 
 هنا بعض المقالات التى تعطي شرحًا مفصلًا عن المصفوفات ودوالها  
 
-* [Godot's Docs](https://docs.godotengine.org/en/stable/classes/class_array.html#class-array-method-append-array) الشرح الشامل من موقع غودوت
-* [Andrew Wilkes](https://gdscript.com/arrays) شرح مبسط وملخص للأمر من Andrew Wilkes
+* [Godot's Docs](https://docs.godotengine.org/en/stable/classes/class_array.html#class-array-method-append-array) 
+* [Andrew Wilkes](https://gdscript.com/arrays) 
 
 </div>
