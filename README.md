@@ -2,7 +2,8 @@
 
 <div align = "center">
 
-# السلام عليكم ورحمة الله وبركاته
+# بسم الله الرحمن الرحيم
+## السلام عليكم ورحمة الله وبركاته
 ## تعلم محرك غودوت باللغة العربية
 </div>
 
@@ -50,8 +51,8 @@ https://godotengine.org/download/windows
   
 |الدرس|وصف قصير|
 |:--:|:-:|
-|[مكونات المحرك](Lessons/GodotEngine/%5B07%5DEngineComponents/README.md)|سنتكلم في هذا الدرس عن  بعض مكونات المحرك الاساسية
-|
+|[مكونات المحرك](Lessons/GodotEngine/%5B07%5DEngineComponents/README.md)|سنتكلم في هذا الدرس عن  بعض مكونات المحرك الاساسية|
+|[المفاهيم الأساسية](Lessons/GodotEngine/%5B08%5DBasicConcepts/README.md)|سنتكلم في هذا الدرس عن بعض المفاهيم الاساسية منها الـ Node, Scene, Scripts|
 
 
 ##  `مصادر`
