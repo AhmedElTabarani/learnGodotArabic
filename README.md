@@ -53,6 +53,7 @@ https://godotengine.org/download/windows
 |:--:|:-:|
 |[مكونات المحرك](Lessons/GodotEngine/%5B08%5DEngineComponents/README.md)|سنتكلم في هذا الدرس عن  بعض مكونات المحرك الاساسية|
 |[المفاهيم الأساسية](Lessons/GodotEngine/%5B09%5DBasicConcepts/README.md)|سنتكلم في هذا الدرس عن بعض المفاهيم الاساسية منها الـ Node, Scene, Scripts|
+|[الحركة](Lessons/GodotEngine/%5B10%5DMovement/README.md)|سنتعلم كيف نبرمجة حركة اللاعب|
 
 
 ##  `مصادر`
