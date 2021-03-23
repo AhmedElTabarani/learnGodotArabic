@@ -244,20 +244,20 @@ is_action_just_released("ui_right")
 ```swift
 func _physics_process(delta):
     # Move Right +x
-	if Input.is_action_pressed("ui_right"):
-		position.x += 1
+    if Input.is_action_pressed("ui_right"):
+        position.x += 1
 
-	# Move Left -x
-	if Input.is_action_pressed("ui_left"):
-		position.x -= 1
-	
-	# Move Up -y
-	if Input.is_action_pressed("ui_up"):
-		position.y -= 1
-	
-	# Move Down +y
-	if Input.is_action_pressed("ui_down"):
-		position.y += 1
+    # Move Left -x
+    if Input.is_action_pressed("ui_left"):
+        position.x -= 1
+    
+    # Move Up -y
+    if Input.is_action_pressed("ui_up"):
+        position.y -= 1
+    
+    # Move Down +y
+    if Input.is_action_pressed("ui_down"):
+        position.y += 1
 ```
 
 </div>
@@ -281,20 +281,20 @@ var speed = 2
 
 func _physics_process(delta):
     # Move Right +x
-	if Input.is_action_pressed("ui_right"):
-		position.x += speed
+    if Input.is_action_pressed("ui_right"):
+        position.x += speed
 
-	# Move Left -x
-	if Input.is_action_pressed("ui_left"):
-		position.x -= speed
-	
-	# Move Up -y
-	if Input.is_action_pressed("ui_up"):
-		position.y -= speed
-	
-	# Move Down +y
-	if Input.is_action_pressed("ui_down"):
-		position.y += speed
+    # Move Left -x
+    if Input.is_action_pressed("ui_left"):
+        position.x -= speed
+    
+    # Move Up -y
+    if Input.is_action_pressed("ui_up"):
+        position.y -= speed
+    
+    # Move Down +y
+    if Input.is_action_pressed("ui_down"):
+        position.y += speed
 ```
 
 </div>
@@ -311,21 +311,21 @@ func _physics_process(delta):
 var speed = 300
 
 func _physics_process(delta):
-	# Move Right +x
-	if Input.is_action_pressed("ui_right"):
-		position.x += speed * delta
+    # Move Right +x
+    if Input.is_action_pressed("ui_right"):
+        position.x += speed * delta
 
-	# Move Left -x
-	if Input.is_action_pressed("ui_left"):
-		position.x -= speed * delta
-	
-	# Move Up -y
-	if Input.is_action_pressed("ui_up"):
-		position.y -= speed * delta
-	
-	# Move Down +y
-	if Input.is_action_pressed("ui_down"):
-		position.y += speed * delta
+    # Move Left -x
+    if Input.is_action_pressed("ui_left"):
+        position.x -= speed * delta
+    
+    # Move Up -y
+    if Input.is_action_pressed("ui_up"):
+        position.y -= speed * delta
+    
+    # Move Down +y
+    if Input.is_action_pressed("ui_down"):
+        position.y += speed * delta
 ```
 
 </div>
