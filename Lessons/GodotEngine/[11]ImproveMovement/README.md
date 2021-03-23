@@ -248,7 +248,8 @@ func _physics_process(delta):
 
 <div dir = ltr>
 
-$\sqrt{x^2 + y^2}$ => $\sqrt{1^2 + 0^2}$ => $\sqrt{1}$ = 1 
+![](https://render.githubusercontent.com/render/math?math=\Large\color{DodgerBlue}\sqrt{x^2%20%2B%20y^2}%20\Rightarrow%20\sqrt{1^2%20%2B%200^2}%20\Rightarrow%20\sqrt{1}%20=%201)
+
 </div>
 
 سيعطينا `1` وهو ما سينضرب في ال سرعة `speed`   بالتالي السرعة لن تتغير اي ستظل كما هي، فقط الاتجاه من له عامل التاثر هنا وهذا ما نريده  
@@ -261,7 +262,8 @@ $\sqrt{x^2 + y^2}$ => $\sqrt{1^2 + 0^2}$ => $\sqrt{1}$ = 1
 
 <div dir = ltr>
 
-$\sqrt{x^2 + y^2}$ => $\sqrt{0^2 + 1^2}$ => $\sqrt{1}$ = 1 
+![](https://render.githubusercontent.com/render/math?math=\Large\color{DodgerBlue}\sqrt{x^2%20%2B%20y^2}%20\Rightarrow%20\sqrt{0^2%20%2B%201^2}%20\Rightarrow%20\sqrt{1}%20=%201)
+
 </div>
 
 ## `أين المشكلة ؟`
@@ -271,11 +273,14 @@ $\sqrt{x^2 + y^2}$ => $\sqrt{0^2 + 1^2}$ => $\sqrt{1}$ = 1
 
 <div dir = ltr>
 
-$\sqrt{x^2 + y^2}$ => $\sqrt{1^2 + 1^2}$ => $\sqrt{2}$ = 1.4142 
+![](https://render.githubusercontent.com/render/math?math=\Large\color{DodgerBlue}\sqrt{x^2%20%2B%20y^2}%20\Rightarrow%20\sqrt{1^2%20%2B%201^2}%20\Rightarrow%20\sqrt{2}%20=%201.4142)
+
 </div>
 
 
-سيعطيك $\sqrt{2}$ اي `1.4142` وهكذا سيزيد سرعة اللاعب عن المتوقع وهكذا اصبح المتجه يؤثر على السرعة وهذا ما لا  نريده   
+سيعطيك 
+![](https://render.githubusercontent.com/render/math?math=\color{DodgerBlue}\sqrt{2}) 
+اي `1.4142` وهكذا سيزيد سرعة اللاعب عن المتوقع وهكذا اصبح المتجه يؤثر على السرعة وهذا ما لا  نريده   
 نحن نريده ان يحدد لنا الاتجاه فقط لذا يجب على طوله ان يكون مساويًا ل 1 لكي لا يؤثر على السرعة
 
 `position += direction * speed * delta`   
@@ -302,7 +307,8 @@ $\sqrt{x^2 + y^2}$ => $\sqrt{1^2 + 1^2}$ => $\sqrt{2}$ = 1.4142
 
 <div dir = ltr>
 
-$\sqrt{3^2 + 4^2}$ => $\sqrt{25}$ = 5
+![](https://render.githubusercontent.com/render/math?math=\Large\color{DodgerBlue}\sqrt{3^2%20%2B%204^2}%20\Rightarrow%20\sqrt{25}%20=%205)
+
 </div>
 
 لنحوله الى متجه الوحدة كل ما علينا فعله هو ان نقسم قيم المتجه على طوله اي الوتر والوتر يقسم ايضا في نفسه  
