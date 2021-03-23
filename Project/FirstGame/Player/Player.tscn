@@ -4,9 +4,11 @@
 [ext_resource path="res://Player/PlayerScript.gd" type="Script" id=2]
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 3.87115, 221.863 )
+position = Vector2( 512, 300 )
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 106.502, -93.4978 )
 texture = ExtResource( 1 )

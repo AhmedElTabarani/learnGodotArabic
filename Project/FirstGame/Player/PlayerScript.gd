@@ -1,20 +1,17 @@
 extends KinematicBody2D
 
 var speed = 500
+var direction : Vector2
 
 func _physics_process(delta):
-	# Move Right +x
-	if Input.is_action_pressed("ui_right"):
-		position.x += speed * delta
-
-	# Move Left -x
-	if Input.is_action_pressed("ui_left"):
-		position.x -= speed * delta
+	# define direction of movement
+	direction.x = int(Input.is_action_pressed("ui_right")) - int(Input.is_action_pressed("ui_left"))
+	direction.y = int(Input.is_action_pressed("ui_down")) - int(Input.is_action_pressed("ui_up"))
 	
-	# Move Up -y
-	if Input.is_action_pressed("ui_up"):
-		position.y -= speed * delta
+	# make a vector transform into the unit vector
+	# i.e. its length equals 1
+	direction = direction.normalized()
 	
-	# Move Down +y
-	if Input.is_action_pressed("ui_down"):
-		position.y += speed * delta
+	# Movement
+	if direction:
+		position += direction * speed * delta
