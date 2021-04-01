@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var speed = 500
+var speed = 250
 var direction : Vector2
 
 func _physics_process(delta):
@@ -15,3 +15,19 @@ func _physics_process(delta):
     # Movement
     if direction:
         position += direction * speed * delta
+        
+    else: # stop animation movement
+        $AnimatedSprite.stop()
+        $AnimatedSprite.frame = 0
+    
+    # animation movement for right/left
+    if direction.x == 1:
+        $AnimatedSprite.play("right")
+    elif direction.x == -1:
+        $AnimatedSprite.play("left")
+    
+    # animation movement for down/up
+    if direction.y == 1:
+        $AnimatedSprite.play("down")
+    elif direction.y == -1:
+        $AnimatedSprite.play("up")
