@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="FirstGame"
-run/main_scene="res://Player/Player.tscn"
+run/main_scene="res://WorldScene.tscn"
 config/icon="res://icon.png"
 
 [importer_defaults]
