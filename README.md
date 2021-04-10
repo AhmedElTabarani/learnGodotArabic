@@ -61,6 +61,7 @@ https://godotengine.org/download/windows
 |[الحركة](Lessons/GodotEngine/%5B10%5DMovement/README.md)|سنتعلم كيف نبرمجة حركة اللاعب|
 |[تحسين الحركة](Lessons/GodotEngine/%5B11%5DImproveMovement/README.md)|تحسين حركة اللاعب وحل مشكلة زيادة السرعة عند الزوايا|
 |[الأشكال المتحركة](Lessons/GodotEngine/%5B12%5DAnimationSprites/README.md)|وضع أشكال متحركة للشخصية لكل جهه|
+|[المشاهد والكاميرا](Lessons/GodotEngine/%5B13%5DScenesAndCamera/README.md)|وضع أشكال متحركة للشخصية لكل جهه|
 
 
 ##  `مصادر`
