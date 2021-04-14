@@ -61,8 +61,8 @@ https://godotengine.org/download/windows
 |[الحركة](Lessons/GodotEngine/%5B10%5DMovement/README.md)|سنتعلم كيف نبرمجة حركة اللاعب|
 |[تحسين الحركة](Lessons/GodotEngine/%5B11%5DImproveMovement/README.md)|تحسين حركة اللاعب وحل مشكلة زيادة السرعة عند الزوايا|
 |[الأشكال المتحركة](Lessons/GodotEngine/%5B12%5DAnimationSprites/README.md)|وضع أشكال متحركة للشخصية لكل جهه|
-|[المشاهد والكاميرا](Lessons/GodotEngine/%5B13%5DScenesAndCamera/README.md)|سنشرح في هذا الدرس إنشاء مشاهد مختلفة وربطهم ببعض وسنتعلم ايضًا التحكم بالكاميرا بإستخدام عقدة Camera2D|
-
+|[المشاهد والكاميرا](Lessons/GodotEngine/%5B13%5DScenesAndCamera/README.md)|سنشرح في هذا الدرس إنشاء مشاهد مختلفة وربطهم ببعض  <br> وسنتعلم ايضًا التحكم بالكاميرا بإستخدام عقدة Camera2D|
+|[التصادم](Lessons/GodotEngine/%5B14%5DCollision/README.md)|اضافة التصادم بين الاشياء مثل اللاعب مع محيطه|
 
 ##  `مصادر`
 * [مستندات غودوت](https://docs.godotengine.org/en/stable/)
