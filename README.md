@@ -28,7 +28,7 @@
   * `Gdscript` (مقاربة للـ `Python`)
   * <span dir = ltr> `C#` </span> ( نسخة الـ `Mono`) 
   * <span dir = ltr> `C\C++` </span> (اللغة التى بُنيَ بها المحرك `Native`)
- 
+
 في نهاية هذه السلسلة التعليمية ستستطيع بإذن الله صنع لعبة بسيطة وتصديرها لتصبح قابلة لللعب
 سواء تصديرها على الويب او للتحميل على الجهاز
 
@@ -40,7 +40,7 @@ https://godotengine.org/download/windows
 # `فهرس الدروس`
 
 * ## `دروس لغة Gdscript`  
-  
+
 |الدرس|وصف قصير|
 |:--:|:-:|
 |[ما قبل البداية](Lessons/Gdscript/%5B00%5DBeforeStarting/README.md)|مفاهيم وامور مهمة يجب معرفتها|
@@ -53,7 +53,7 @@ https://godotengine.org/download/windows
 |[الأصناف](Lessons/Gdscript/%5B07%5DClasses/README.md)|هو كجهاز متكامل تبرمجه كما تشاء وتضيف فيه المتغيرات والدوال  <br> وكل ما تريده لوصف وانشاء ما تحتاجه ليفهمه البرنامج ويتعامل معه بسهولة كما تريده|
 
 * ## `دروس محرك غودوت`  
-  
+
 |الدرس|وصف قصير|
 |:--:|:-:|
 |[مكونات المحرك](Lessons/GodotEngine/%5B08%5DEngineComponents/README.md)|سنتكلم في هذا الدرس عن  بعض مكونات المحرك الاساسية|
@@ -65,6 +65,7 @@ https://godotengine.org/download/windows
 |[التصادم](Lessons/GodotEngine/%5B14%5DCollision/README.md)|اضافة التصادم بين الاشياء مثل اللاعب مع محيطه|
 
 ##  `مصادر`
+* [مصادر متنوعة](Resources/README.md)
 * [مستندات غودوت](https://docs.godotengine.org/en/stable/)
 * [عندك سؤال معقد ؟](https://godotengine.org/qa/)
 * [ديسكورد غودوت](https://discord.com/invite/4JBkykG)
