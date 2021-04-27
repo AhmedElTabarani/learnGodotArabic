@@ -30,6 +30,7 @@
 - [Pigdev Docs](https://pigdev.itch.io/experiments/devlog)
 - [Juan Linietsky, Ariel Manzur Docs](https://docs.huihoo.com/godotengine/godot-docs/godot/index.html)
 
+- [مدونة عربية](https://godotarabic.wordpress.com/)
 
 ## `سلسلة شروحات عربية`
 
