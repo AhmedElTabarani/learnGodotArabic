@@ -2,7 +2,7 @@
 
 <div align = "center">
 
-# تم نقل الشروحات الى مدونة : https://tabarani.herokuapp.com/courses/godot/
+# تم نقل الشروحات الى مدونة : https://tabarani.onrender.com/courses/godot/
 
 ----
 
