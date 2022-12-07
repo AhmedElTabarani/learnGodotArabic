@@ -2,8 +2,6 @@
 
 <div align = "center">
 
-# تم نقل الشروحات الى مدونة : https://tabarani.cyclic.app/courses/godot/
-
 ----
 
 # بسم الله الرحمن الرحيم
